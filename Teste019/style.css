@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: bisque;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+   justify-content: center;
+}
+.container{
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    border: solid pink 5px;
+   align-items: center;
+    display: flex;
+   flex-direction: column;
+  flex-wrap: wrap;
+   
+
+}
+.item{
+    height: 200px;
+    width: 200px;
+    background-color: palevioletred;
+    font-size: 36px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.ordem{
+    order: 5;
+}
+.ordem2{
+    order: -1;
+    align-self: center;
+}
